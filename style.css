@@ -694,3 +694,12 @@ input {
 	width: 45.5rem;
 }
 }
+@media (max-width: 435px) {
+	.photo-works  img{
+width:280px;
+}
+.photo-works-covering {
+	width: 280px;
+	height: 250px;
+}
+}
