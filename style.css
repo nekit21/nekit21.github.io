@@ -73,6 +73,10 @@ top: 3rem;
 	background: rgb(255,255,255);
 	color: #c0301c;
 }
+
+.main-btn:hover a {
+	color: #c0301c;
+}
 .services {
 	padding-top: 10rem;
 	color: #555555;
@@ -246,15 +250,17 @@ color: #555555;
 	background: #c0301c;
 
 }
-#works-span {
+.works-span {
 
-	top: -45%;
-	transform: rotate(-45deg);
+	top: -45% !important;
+	transform: rotate(-45deg) !important;
 }
-#text-btn {
-	position: absolute;
-	left:20%;
-	top: 15%;
+.text-btn {
+	position: absolute !important;
+	left:20% !important;
+	top: -85% !important;
+	transform: rotate(0deg) !important;
+	width: 0 !important;
 }
 .photo-works-covering:hover {
 	opacity: 1;
@@ -302,6 +308,10 @@ color: #555555;
 	position: absolute;
 	top:55%;
 }
+.project-btn a {
+	color: white;
+	text-decoration: none;
+}
 .blog {
 	padding-top: 10rem;
 	padding-bottom: 10rem;
@@ -333,7 +343,7 @@ vertical-align: top;
 	font-size: 2.5rem;
 }
 
-#blog-p span {
+.blog-p span {
 	color:#c43d2a;
 } 
 .blog-photo-text {
